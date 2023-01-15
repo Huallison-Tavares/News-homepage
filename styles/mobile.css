@@ -1,0 +1,204 @@
+@media screen and (max-width:395px){
+    body{
+        width: 100%;
+        overflow-x:visible;
+    }
+    
+    .topo-site{
+        margin-top: 20px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .topo-site img{
+        margin-left: 20px;
+    }
+    .topo-site img.mobile{
+        display: flex;
+        margin-right: 20px;
+        width: 40px;
+        height: 20px;
+    }
+    
+    .topo-site ul{
+        position: relative;
+        align-items: baseline;
+        flex-direction: column;
+        justify-content: baseline;
+        
+    }
+
+    .opcoes img.close{
+        display: flex;
+        width: 35px;
+        height: 35px;
+        margin: 17px 0px 0px 200px;
+    }
+    .opcoes{
+        margin-top: -20px;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 1, 28, 0.693);
+        position:absolute;
+        display: flex;
+        justify-content: end;
+        visibility: collapse;
+    }
+    .opcoes ul{
+        margin: 60px 0px 0px -20px;
+        font-size: 15pt;
+    }
+    #escolhas-opcoes{ 
+        width: 70vw;     
+        background-color: white;
+    }
+    
+    .imgs-topo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .topo-site ul li{
+        padding: 20px 15px 20px 15px;
+        opacity: 1;
+    }
+    .centro-site{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .noticia-atual{
+        align-items: center;
+    }
+    
+    .noticia-atual img.mobile{
+        display: flex;
+        width: 350px;
+    }
+    
+    .conteudo-noticia-atual{
+        flex-direction: column;
+        width: 350px;
+    }
+    
+    .h1-noticia-atual{
+        width: 350px;
+    }
+    
+    .h1-noticia-atual h1{
+        font-size: 33pt;
+    }
+    
+    .noticia-noticia-atual{
+        width: 350px;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .noticia-noticia-atual button{
+        padding: 14px 0px 14px 0px;
+    }
+    
+    .novas-noticias{
+        margin-top: 60px;
+        margin-left: 0px;
+        width: 330px;
+        height: 540px;
+        background-color: hsl(240, 100%, 5%);
+    }
+    
+    
+    .novas-noticias h1{
+        color: rgb(255, 168, 38);
+        font-family: statica2;
+    }
+    
+    .noticias-novas p{
+        color: rgb(184, 184, 184);
+    }
+    .noticias-novas h2{
+        color: white;
+        font-family: statica2;
+    }
+    
+    .noticias-novas h2:hover{
+        color: rgb(255, 168, 38);
+        transition: all 0.3s;
+        cursor: pointer;
+    }
+    .noticias-novas{
+        width: 271px;
+        border-bottom: gray 1px solid;
+    }
+    
+    .fim-site{
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .info-fim-site{
+        display: flex;
+        margin-bottom: 40px;
+        align-items: center;
+        margin-left: 14px;
+    }
+    
+    .info-fim-site img{
+        width: 120px;
+        height: 150px;
+    }
+    
+    .info-not-fim{
+        margin-top: 0px;
+        padding: 0px 0px 0px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+    
+    .info-not-fim h1,
+    .info-not-fim p{
+        margin: 0;
+    }
+    
+    .info-not-fim h1{
+        color: rgba(0, 0, 0, 0.382);
+    }
+    
+    .info-not-fim h1,
+    .info-not-fim h2{
+        font-family: statica2;
+    }
+    
+    .info-not-fim h2{
+        color: hsl(240, 100%, 5%);
+        margin-top: 15px;
+        font-size: 12pt;
+        transition: all 0.3s;
+    }
+    
+    .info-not-fim h2:hover{
+        color: rgba(254, 64, 64, 0.822);
+        cursor: pointer;
+        
+    }
+    
+    .info-not-fim p{
+        font-size: 10pt;
+    }
+    
+    .comp,
+    .close{
+        display: none;
+    }
+    
+    
+}
